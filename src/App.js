@@ -4,6 +4,8 @@ import ExpertiseSection from "./components/ExpertiseSection";
 import MissionSection from "./components/MissionSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import ContactSection from "./components/ContactSection ";
+import Footer from "./components/Footer";
 
 const styles = `
 @keyframes slideInLeft {
@@ -242,6 +244,8 @@ export default function HomePage() {
       <MissionSection />
       <ServicesSection />
       <TestimonialsSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }
